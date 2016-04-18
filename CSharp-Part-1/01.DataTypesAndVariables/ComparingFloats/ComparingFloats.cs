@@ -6,17 +6,17 @@
     {
         public static void Main()
         {
-            double a = -0.0000007;
-            double b = -0.0000007;
-            double difference = Math.Abs(a * 0.000001);
+            double a = double.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
+            bool areEqual = Math.Abs(a - b) < 0.000001;
 
-            if (Math.Abs(a - b) < difference)
+            if (areEqual)
             {
-                Console.WriteLine("a ({0}) and b ({1}) are equal.", a, b);
+                Console.WriteLine("true");
             }
             else
             {
-                Console.WriteLine("a ({0}) and b ({1}) are not equal.", a, b);
+                Console.WriteLine("false");
             }
         }
     }
