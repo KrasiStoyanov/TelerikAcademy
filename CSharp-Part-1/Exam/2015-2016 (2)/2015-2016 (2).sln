@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Money", "Money\01.Money.csproj", "{CB62A780-DBCA-41AA-922B-FDFEE913D0FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.EncodingSum", "EncodingSum\02.EncodingSum.csproj", "{E556AD3A-A959-4409-8020-0861FF52C5C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Maslan", "Maslan\03.Maslan.csproj", "{342E1794-98D7-42EE-93D3-0F39C7EE7964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB62A780-DBCA-41AA-922B-FDFEE913D0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB62A780-DBCA-41AA-922B-FDFEE913D0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB62A780-DBCA-41AA-922B-FDFEE913D0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB62A780-DBCA-41AA-922B-FDFEE913D0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E556AD3A-A959-4409-8020-0861FF52C5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E556AD3A-A959-4409-8020-0861FF52C5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E556AD3A-A959-4409-8020-0861FF52C5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E556AD3A-A959-4409-8020-0861FF52C5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342E1794-98D7-42EE-93D3-0F39C7EE7964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342E1794-98D7-42EE-93D3-0F39C7EE7964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342E1794-98D7-42EE-93D3-0F39C7EE7964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342E1794-98D7-42EE-93D3-0F39C7EE7964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
