@@ -5,14 +5,38 @@
 
     // Problem 2. Compare arrays
 
-    // Write a program that reads two integer arrays from the console and compares them element by element.
+    // Write a program that reads two integer arrays of size N from the console and compares them element by element.
 
     public class Program
     {
         public static void Main()
         {
-            int[] firstArr = Console.ReadLine().Split(' ').Select(character => int.Parse(character)).ToArray();
-            int[] secondArr = Console.ReadLine().Split(' ').Select(character => int.Parse(character)).ToArray();
+            int n = int.Parse(Console.ReadLine());
+            int[] firstArr = new int[n];
+            int[] secondArr = new int[n];
+            string areEqual = "Equal";
+            for (int i = 0; i < n; i++)
+            {
+                int currentNumber = int.Parse(Console.ReadLine());
+                firstArr[i] = currentNumber;
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                int currentNumber = int.Parse(Console.ReadLine());
+                secondArr[i] = currentNumber;
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                if (firstArr[i] != secondArr[i])
+                {
+                    areEqual = "Not equal";
+                    break;
+                }
+            }
+
+            Console.WriteLine("{0}", areEqual);
         }
     }
 }
